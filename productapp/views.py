@@ -15,3 +15,4 @@ def detail(request, product_id):
     product_item = get_object_or_404(Product, pk=product_id)
     return render(request, 'productapp/detail.html', {'product': product_item})
 
+# Good Work .. Please write Class based views (list and detail ) and Create/Update view for category and product..
